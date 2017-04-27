@@ -14,9 +14,9 @@ on the edge of clicker board.
 
 Other components of the EW17 Creator demo are
 
-* Clicker application that detects the current block colour and echo the value over UART
-* A javascript application that receives notifications when new colours are detected, stores them to a database, and pushes bulb-colour value changes
-* Ci40 application that receives bulb-colour value changes and issues the corresponding colour change instruction to the bulb over bluetooth
+* [Clicker application](https://github.com/CreatorDev/clicker-ew-demo) that detects the current block colour and echo the value over UART
+* [A javascript application](https://github.com/CreatorDev/webapp-ew17) that receives notifications when new colours are detected, stores them to a database, and pushes bulb-colour value changes
+* [Ci40 application](https://github.com/CreatorDev/Ci40-ew17-bulb) that receives bulb-colour value changes and issues the corresponding colour change instruction to the bulb over bluetooth
 * A python application on a Mediatek 7688 Duo that drives the motors for the conveyor belt when a user presses the stop/start button, or when an inactivity timeout triggers
 
 ---
